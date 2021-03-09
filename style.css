@@ -6,15 +6,15 @@ body, html {
     background: #aaa;
     align-items: center;
     display: flex;
-    justify-content: center;
     width: 1000px;
+    justify-content: center;
 }
 .two {
     background: #aaa;
     align-items: center;
     display: flex;
-    justify-content: center;
     width: 500px;
+    justify-content: center;
 }
 .flex-container {
     display: flex;
@@ -47,7 +47,7 @@ body, html {
     border-width: 12px 12px 24px 0; 
     border-style: solid solid solid none;
     border-color: black;
-    height: 500px;
+    height: 525px;
 }
 .rectangle4 {
     display: flex;
@@ -61,4 +61,19 @@ p {
     font-size: 24px;
     font-style: normal;
     color: black;
+}
+@media only sreen and (max-width: 480px) {
+    .rectangle1 {
+        display: flex;
+        border-width: 0 12px 12px 0;
+        border-style: none solid solid none;
+        border-color: black;
+        height: 170px;
+    }
+    .rectangle2 {
+        display: flex;
+        border-width: 0 0 12px 0;
+        border-style: none none solid solid;
+        border-color: black;
+        height: 170px;
 }
